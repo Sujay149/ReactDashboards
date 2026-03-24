@@ -1,0 +1,3373 @@
+{
+  "events": [
+    {
+      "id": 202,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T00:05:02.444Z",
+      "properties": {
+        "sessionId": "sess_946",
+        "formType": "Feedback Form",
+        "completionTime": 298
+      }
+    },
+    {
+      "id": 194,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T00:20:47.234Z",
+      "properties": {
+        "sessionId": "sess_366",
+        "formType": "Feedback Form",
+        "completionTime": 110
+      }
+    },
+    {
+      "id": 150,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T00:25:53.804Z",
+      "properties": {
+        "sessionId": "sess_268",
+        "fileName": "app_download.pdf",
+        "fileSize": 11
+      }
+    },
+    {
+      "id": 131,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T00:35:45.380Z",
+      "properties": {
+        "sessionId": "sess_657",
+        "videoId": "vid_131",
+        "duration": 286,
+        "watched": 66
+      }
+    },
+    {
+      "id": 145,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T00:37:23.899Z",
+      "properties": {
+        "sessionId": "sess_187",
+        "orderId": "ord_2177",
+        "totalAmount": 405,
+        "itemsCount": 1,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 36,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T00:39:09.448Z",
+      "properties": {
+        "sessionId": "sess_208",
+        "formType": "Sign Up Form",
+        "completionTime": 79
+      }
+    },
+    {
+      "id": 205,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T00:39:19.741Z",
+      "properties": {
+        "sessionId": "sess_297",
+        "fileName": "app_download.pdf",
+        "fileSize": 11
+      }
+    },
+    {
+      "id": 17,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T00:52:55.837Z",
+      "properties": {
+        "sessionId": "sess_618",
+        "fileName": "app_download.pdf",
+        "fileSize": 15
+      }
+    },
+    {
+      "id": 122,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T00:54:47.320Z",
+      "properties": {
+        "sessionId": "sess_473",
+        "videoId": "vid_67",
+        "duration": 231,
+        "watched": 94
+      }
+    },
+    {
+      "id": 111,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T01:03:53.983Z",
+      "properties": {
+        "sessionId": "sess_20",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 17
+      }
+    },
+    {
+      "id": 106,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T01:24:57.717Z",
+      "properties": {
+        "sessionId": "sess_44",
+        "videoId": "vid_214",
+        "duration": 86,
+        "watched": 15
+      }
+    },
+    {
+      "id": 120,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T01:29:40.289Z",
+      "properties": {
+        "sessionId": "sess_374",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 9
+      }
+    },
+    {
+      "id": 100,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Support Page",
+      "timestamp": "2026-03-23T01:38:14.023Z",
+      "properties": {
+        "sessionId": "sess_992",
+        "page": "/support_page",
+        "referrer": "google.com",
+        "device": "tablet",
+        "browser": "Opera",
+        "os": "Android"
+      }
+    },
+    {
+      "id": 60,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Account Page",
+      "timestamp": "2026-03-23T01:39:01.606Z",
+      "properties": {
+        "sessionId": "sess_967",
+        "page": "/account_page",
+        "referrer": "google.com",
+        "device": "desktop",
+        "browser": "Edge",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 209,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T01:39:44.358Z",
+      "properties": {
+        "sessionId": "sess_305",
+        "formType": "Contact Form",
+        "completionTime": 38
+      }
+    },
+    {
+      "id": 46,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T01:43:02.894Z",
+      "properties": {
+        "sessionId": "sess_504",
+        "videoId": "vid_409",
+        "duration": 352,
+        "watched": 72
+      }
+    },
+    {
+      "id": 127,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Product Details",
+      "timestamp": "2026-03-23T01:43:16.901Z",
+      "properties": {
+        "sessionId": "sess_31",
+        "page": "/product_details",
+        "referrer": "linkedin.com",
+        "device": "tablet",
+        "browser": "Opera",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 154,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T01:45:42.417Z",
+      "properties": {
+        "sessionId": "sess_811",
+        "orderId": "ord_181",
+        "totalAmount": 76,
+        "itemsCount": 3,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 88,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T01:50:23.834Z",
+      "properties": {
+        "sessionId": "sess_419",
+        "orderId": "ord_4168",
+        "totalAmount": 62,
+        "itemsCount": 5,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 44,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T01:57:43.839Z",
+      "properties": {
+        "sessionId": "sess_456",
+        "formType": "Sign Up Form",
+        "completionTime": 291
+      }
+    },
+    {
+      "id": 184,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T02:10:36.809Z",
+      "properties": {
+        "sessionId": "sess_427",
+        "videoId": "vid_12",
+        "duration": 349,
+        "watched": 14
+      }
+    },
+    {
+      "id": 93,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Share Product",
+      "timestamp": "2026-03-23T02:12:36.039Z",
+      "properties": {
+        "sessionId": "sess_903",
+        "productId": "prod_969",
+        "productName": "Wireless Headphones",
+        "price": 192
+      }
+    },
+    {
+      "id": 178,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T02:16:39.534Z",
+      "properties": {
+        "sessionId": "sess_128",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 2
+      }
+    },
+    {
+      "id": 164,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T02:38:13.980Z",
+      "properties": {
+        "sessionId": "sess_584",
+        "formType": "Sign Up Form",
+        "completionTime": 97
+      }
+    },
+    {
+      "id": 167,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T02:40:01.915Z",
+      "properties": {
+        "sessionId": "sess_158",
+        "videoId": "vid_323",
+        "duration": 308,
+        "watched": 18
+      }
+    },
+    {
+      "id": 200,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "click",
+      "eventName": "Add to Wishlist",
+      "timestamp": "2026-03-23T02:40:56.145Z",
+      "properties": {
+        "sessionId": "sess_793",
+        "productId": "prod_387",
+        "productName": "Laptop Bag",
+        "price": 112
+      }
+    },
+    {
+      "id": 74,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T02:47:39.915Z",
+      "properties": {
+        "sessionId": "sess_476",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 8
+      }
+    },
+    {
+      "id": 38,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T02:48:48.270Z",
+      "properties": {
+        "sessionId": "sess_201",
+        "formType": "Contact Form",
+        "completionTime": 77
+      }
+    },
+    {
+      "id": 123,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T02:51:30.637Z",
+      "properties": {
+        "sessionId": "sess_390",
+        "formType": "Contact Form",
+        "completionTime": 293
+      }
+    },
+    {
+      "id": 2,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T03:18:41.219Z",
+      "properties": {
+        "sessionId": "sess_145",
+        "orderId": "ord_4114",
+        "totalAmount": 58,
+        "itemsCount": 4,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 63,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T03:20:23.644Z",
+      "properties": {
+        "sessionId": "sess_535",
+        "fileName": "app_download.pdf",
+        "fileSize": 11
+      }
+    },
+    {
+      "id": 151,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T03:22:50.984Z",
+      "properties": {
+        "sessionId": "sess_281",
+        "fileName": "app_download.pdf",
+        "fileSize": 10
+      }
+    },
+    {
+      "id": 61,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T03:26:30.215Z",
+      "properties": {
+        "sessionId": "sess_95",
+        "orderId": "ord_2552",
+        "totalAmount": 416,
+        "itemsCount": 2,
+        "paymentMethod": "credit_card"
+      }
+    },
+    {
+      "id": 54,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T03:28:26.509Z",
+      "properties": {
+        "sessionId": "sess_34",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 2
+      }
+    },
+    {
+      "id": 181,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T03:38:33.096Z",
+      "properties": {
+        "sessionId": "sess_799",
+        "videoId": "vid_425",
+        "duration": 70,
+        "watched": 80
+      }
+    },
+    {
+      "id": 66,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T03:39:07.407Z",
+      "properties": {
+        "sessionId": "sess_660",
+        "orderId": "ord_775",
+        "totalAmount": 472,
+        "itemsCount": 1,
+        "paymentMethod": "credit_card"
+      }
+    },
+    {
+      "id": 64,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T03:41:42.117Z",
+      "properties": {
+        "sessionId": "sess_629",
+        "orderId": "ord_613",
+        "totalAmount": 305,
+        "itemsCount": 4,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 10,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "About Page",
+      "timestamp": "2026-03-23T04:05:13.535Z",
+      "properties": {
+        "sessionId": "sess_256",
+        "page": "/about_page",
+        "referrer": "google.com",
+        "device": "mobile",
+        "browser": "Edge",
+        "os": "iOS"
+      }
+    },
+    {
+      "id": 50,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T04:09:04.018Z",
+      "properties": {
+        "sessionId": "sess_122",
+        "orderId": "ord_3234",
+        "totalAmount": 162,
+        "itemsCount": 5,
+        "paymentMethod": "paypal"
+      }
+    },
+    {
+      "id": 22,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T04:09:09.992Z",
+      "properties": {
+        "sessionId": "sess_859",
+        "orderId": "ord_3094",
+        "totalAmount": 77,
+        "itemsCount": 4,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 137,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T04:09:24.240Z",
+      "properties": {
+        "sessionId": "sess_759",
+        "videoId": "vid_308",
+        "duration": 162,
+        "watched": 86
+      }
+    },
+    {
+      "id": 187,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T04:11:26.830Z",
+      "properties": {
+        "sessionId": "sess_921",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 4
+      }
+    },
+    {
+      "id": 117,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "click",
+      "eventName": "Apply Coupon",
+      "timestamp": "2026-03-23T04:16:42.454Z",
+      "properties": {
+        "sessionId": "sess_643",
+        "productId": "prod_634",
+        "productName": "Desk Lamp",
+        "price": 147
+      }
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T04:28:06.938Z",
+      "properties": {
+        "sessionId": "sess_185",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 18
+      }
+    },
+    {
+      "id": 176,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T04:30:57.788Z",
+      "properties": {
+        "sessionId": "sess_581",
+        "formType": "Contact Form",
+        "completionTime": 169
+      }
+    },
+    {
+      "id": 166,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T04:37:40.236Z",
+      "properties": {
+        "sessionId": "sess_341",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 5
+      }
+    },
+    {
+      "id": 143,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Products Page",
+      "timestamp": "2026-03-23T04:43:48.846Z",
+      "properties": {
+        "sessionId": "sess_433",
+        "page": "/products_page",
+        "referrer": "twitter.com",
+        "device": "desktop",
+        "browser": "Edge",
+        "os": "Android"
+      }
+    },
+    {
+      "id": 153,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T04:44:36.558Z",
+      "properties": {
+        "sessionId": "sess_154",
+        "orderId": "ord_4260",
+        "totalAmount": 350,
+        "itemsCount": 5,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 177,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "View Cart",
+      "timestamp": "2026-03-23T04:45:40.970Z",
+      "properties": {
+        "sessionId": "sess_282",
+        "productId": "prod_95",
+        "productName": "Wireless Headphones",
+        "price": 123
+      }
+    },
+    {
+      "id": 86,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T04:52:03.222Z",
+      "properties": {
+        "sessionId": "sess_68",
+        "orderId": "ord_4487",
+        "totalAmount": 301,
+        "itemsCount": 2,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 112,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T05:02:52.625Z",
+      "properties": {
+        "sessionId": "sess_1",
+        "formType": "Contact Form",
+        "completionTime": 277
+      }
+    },
+    {
+      "id": 188,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T05:03:27.823Z",
+      "properties": {
+        "sessionId": "sess_454",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 1
+      }
+    },
+    {
+      "id": 39,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T05:05:57.858Z",
+      "properties": {
+        "sessionId": "sess_838",
+        "orderId": "ord_4588",
+        "totalAmount": 438,
+        "itemsCount": 1,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 70,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T05:07:25.638Z",
+      "properties": {
+        "sessionId": "sess_60",
+        "videoId": "vid_344",
+        "duration": 263,
+        "watched": 44
+      }
+    },
+    {
+      "id": 105,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T05:16:09.517Z",
+      "properties": {
+        "sessionId": "sess_314",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 5
+      }
+    },
+    {
+      "id": 161,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T05:19:09.407Z",
+      "properties": {
+        "sessionId": "sess_841",
+        "videoId": "vid_53",
+        "duration": 162,
+        "watched": 58
+      }
+    },
+    {
+      "id": 87,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T05:21:09.438Z",
+      "properties": {
+        "sessionId": "sess_574",
+        "orderId": "ord_431",
+        "totalAmount": 144,
+        "itemsCount": 2,
+        "paymentMethod": "paypal"
+      }
+    },
+    {
+      "id": 35,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T05:22:36.056Z",
+      "properties": {
+        "sessionId": "sess_134",
+        "videoId": "vid_358",
+        "duration": 287,
+        "watched": 68
+      }
+    },
+    {
+      "id": 102,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T05:24:01.336Z",
+      "properties": {
+        "sessionId": "sess_567",
+        "orderId": "ord_1656",
+        "totalAmount": 280,
+        "itemsCount": 4,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 21,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T05:24:23.404Z",
+      "properties": {
+        "sessionId": "sess_978",
+        "videoId": "vid_373",
+        "duration": 291,
+        "watched": 86
+      }
+    },
+    {
+      "id": 136,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T05:26:21.156Z",
+      "properties": {
+        "sessionId": "sess_939",
+        "videoId": "vid_13",
+        "duration": 104,
+        "watched": 27
+      }
+    },
+    {
+      "id": 83,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T05:29:41.966Z",
+      "properties": {
+        "sessionId": "sess_157",
+        "videoId": "vid_112",
+        "duration": 205,
+        "watched": 32
+      }
+    },
+    {
+      "id": 157,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T05:30:37.089Z",
+      "properties": {
+        "sessionId": "sess_315",
+        "formType": "Feedback Form",
+        "completionTime": 78
+      }
+    },
+    {
+      "id": 30,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T05:35:39.634Z",
+      "properties": {
+        "sessionId": "sess_752",
+        "formType": "Contact Form",
+        "completionTime": 197
+      }
+    },
+    {
+      "id": 57,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Start Checkout",
+      "timestamp": "2026-03-23T05:38:59.886Z",
+      "properties": {
+        "sessionId": "sess_409",
+        "productId": "prod_708",
+        "productName": "Wireless Headphones",
+        "price": 35
+      }
+    },
+    {
+      "id": 29,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Pricing Page",
+      "timestamp": "2026-03-23T06:00:02.345Z",
+      "properties": {
+        "sessionId": "sess_571",
+        "page": "/pricing_page",
+        "referrer": "direct",
+        "device": "desktop",
+        "browser": "Edge",
+        "os": "iOS"
+      }
+    },
+    {
+      "id": 197,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T06:07:23.942Z",
+      "properties": {
+        "sessionId": "sess_929",
+        "formType": "Sign Up Form",
+        "completionTime": 125
+      }
+    },
+    {
+      "id": 37,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Add to Cart",
+      "timestamp": "2026-03-23T06:23:15.054Z",
+      "properties": {
+        "sessionId": "sess_775",
+        "productId": "prod_231",
+        "productName": "Wireless Headphones",
+        "price": 89
+      }
+    },
+    {
+      "id": 98,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T07:02:32.129Z",
+      "properties": {
+        "sessionId": "sess_309",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 12
+      }
+    },
+    {
+      "id": 204,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T07:04:56.719Z",
+      "properties": {
+        "sessionId": "sess_119",
+        "videoId": "vid_50",
+        "duration": 256,
+        "watched": 77
+      }
+    },
+    {
+      "id": 207,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T07:06:45.784Z",
+      "properties": {
+        "sessionId": "sess_993",
+        "fileName": "app_download.pdf",
+        "fileSize": 15
+      }
+    },
+    {
+      "id": 140,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Blog Page",
+      "timestamp": "2026-03-23T07:15:24.291Z",
+      "properties": {
+        "sessionId": "sess_28",
+        "page": "/blog_page",
+        "referrer": "twitter.com",
+        "device": "mobile",
+        "browser": "Safari",
+        "os": "Linux"
+      }
+    },
+    {
+      "id": 201,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T07:16:14.705Z",
+      "properties": {
+        "sessionId": "sess_998",
+        "videoId": "vid_335",
+        "duration": 102,
+        "watched": 44
+      }
+    },
+    {
+      "id": 73,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T07:33:53.357Z",
+      "properties": {
+        "sessionId": "sess_920",
+        "orderId": "ord_1134",
+        "totalAmount": 188,
+        "itemsCount": 5,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 118,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "About Page",
+      "timestamp": "2026-03-23T07:43:26.338Z",
+      "properties": {
+        "sessionId": "sess_5",
+        "page": "/about_page",
+        "referrer": "twitter.com",
+        "device": "desktop",
+        "browser": "Opera",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 76,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "View Cart",
+      "timestamp": "2026-03-23T07:43:44.513Z",
+      "properties": {
+        "sessionId": "sess_6",
+        "productId": "prod_300",
+        "productName": "Laptop Bag",
+        "price": 29
+      }
+    },
+    {
+      "id": 43,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T07:57:40.589Z",
+      "properties": {
+        "sessionId": "sess_14",
+        "fileName": "app_download.pdf",
+        "fileSize": 6
+      }
+    },
+    {
+      "id": 59,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T08:07:50.432Z",
+      "properties": {
+        "sessionId": "sess_233",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 6
+      }
+    },
+    {
+      "id": 183,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T08:39:49.190Z",
+      "properties": {
+        "sessionId": "sess_468",
+        "videoId": "vid_228",
+        "duration": 99,
+        "watched": 82
+      }
+    },
+    {
+      "id": 77,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T08:46:17.659Z",
+      "properties": {
+        "sessionId": "sess_596",
+        "videoId": "vid_2",
+        "duration": 77,
+        "watched": 26
+      }
+    },
+    {
+      "id": 130,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Pricing Page",
+      "timestamp": "2026-03-23T08:55:09.671Z",
+      "properties": {
+        "sessionId": "sess_499",
+        "page": "/pricing_page",
+        "referrer": "twitter.com",
+        "device": "desktop",
+        "browser": "Chrome",
+        "os": "macOS"
+      }
+    },
+    {
+      "id": 190,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T08:56:37.560Z",
+      "properties": {
+        "sessionId": "sess_115",
+        "formType": "Feedback Form",
+        "completionTime": 303
+      }
+    },
+    {
+      "id": 18,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "click",
+      "eventName": "Start Checkout",
+      "timestamp": "2026-03-23T08:59:08.112Z",
+      "properties": {
+        "sessionId": "sess_733",
+        "productId": "prod_174",
+        "productName": "Laptop Bag",
+        "price": 63
+      }
+    },
+    {
+      "id": 95,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Product Details",
+      "timestamp": "2026-03-23T09:01:49.692Z",
+      "properties": {
+        "sessionId": "sess_653",
+        "page": "/product_details",
+        "referrer": "bing.com",
+        "device": "desktop",
+        "browser": "Opera",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 80,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T09:02:15.907Z",
+      "properties": {
+        "sessionId": "sess_952",
+        "fileName": "app_download.pdf",
+        "fileSize": 5
+      }
+    },
+    {
+      "id": 5,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T09:12:00.083Z",
+      "properties": {
+        "sessionId": "sess_323",
+        "videoId": "vid_479",
+        "duration": 84,
+        "watched": 45
+      }
+    },
+    {
+      "id": 208,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T09:12:45.142Z",
+      "properties": {
+        "sessionId": "sess_701",
+        "videoId": "vid_144",
+        "duration": 84,
+        "watched": 98
+      }
+    },
+    {
+      "id": 14,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T09:34:43.220Z",
+      "properties": {
+        "sessionId": "sess_17",
+        "videoId": "vid_96",
+        "duration": 292,
+        "watched": 11
+      }
+    },
+    {
+      "id": 142,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Start Checkout",
+      "timestamp": "2026-03-23T09:41:20.967Z",
+      "properties": {
+        "sessionId": "sess_775",
+        "productId": "prod_43",
+        "productName": "Desk Lamp",
+        "price": 46
+      }
+    },
+    {
+      "id": 149,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T10:06:39.406Z",
+      "properties": {
+        "sessionId": "sess_690",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 2
+      }
+    },
+    {
+      "id": 210,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Start Checkout",
+      "timestamp": "2026-03-23T10:11:51.930Z",
+      "properties": {
+        "sessionId": "sess_518",
+        "productId": "prod_567",
+        "productName": "Wireless Headphones",
+        "price": 102
+      }
+    },
+    {
+      "id": 26,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T10:33:48.567Z",
+      "properties": {
+        "sessionId": "sess_678",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 19
+      }
+    },
+    {
+      "id": 196,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T10:35:57.697Z",
+      "properties": {
+        "sessionId": "sess_986",
+        "formType": "Feedback Form",
+        "completionTime": 172
+      }
+    },
+    {
+      "id": 78,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T10:54:28.825Z",
+      "properties": {
+        "sessionId": "sess_683",
+        "orderId": "ord_4557",
+        "totalAmount": 394,
+        "itemsCount": 5,
+        "paymentMethod": "credit_card"
+      }
+    },
+    {
+      "id": 81,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T10:56:22.094Z",
+      "properties": {
+        "sessionId": "sess_418",
+        "orderId": "ord_3685",
+        "totalAmount": 128,
+        "itemsCount": 5,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 152,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T11:06:47.972Z",
+      "properties": {
+        "sessionId": "sess_628",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 15
+      }
+    },
+    {
+      "id": 144,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T11:14:46.311Z",
+      "properties": {
+        "sessionId": "sess_792",
+        "orderId": "ord_4447",
+        "totalAmount": 471,
+        "itemsCount": 5,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 23,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T11:21:22.383Z",
+      "properties": {
+        "sessionId": "sess_427",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 19
+      }
+    },
+    {
+      "id": 48,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T11:27:50.030Z",
+      "properties": {
+        "sessionId": "sess_916",
+        "formType": "Contact Form",
+        "completionTime": 280
+      }
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T11:30:12.749Z",
+      "properties": {
+        "sessionId": "sess_975",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 6
+      }
+    },
+    {
+      "id": 128,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Pricing Page",
+      "timestamp": "2026-03-23T11:34:59.336Z",
+      "properties": {
+        "sessionId": "sess_738",
+        "page": "/pricing_page",
+        "referrer": "twitter.com",
+        "device": "tablet",
+        "browser": "Safari",
+        "os": "Android"
+      }
+    },
+    {
+      "id": 72,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T11:59:22.505Z",
+      "properties": {
+        "sessionId": "sess_796",
+        "orderId": "ord_794",
+        "totalAmount": 377,
+        "itemsCount": 3,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 192,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T12:00:29.876Z",
+      "properties": {
+        "sessionId": "sess_943",
+        "orderId": "ord_4695",
+        "totalAmount": 75,
+        "itemsCount": 5,
+        "paymentMethod": "credit_card"
+      }
+    },
+    {
+      "id": 7,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T12:16:34.904Z",
+      "properties": {
+        "sessionId": "sess_631",
+        "videoId": "vid_96",
+        "duration": 208,
+        "watched": 9
+      }
+    },
+    {
+      "id": 199,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T12:19:42.430Z",
+      "properties": {
+        "sessionId": "sess_284",
+        "formType": "Feedback Form",
+        "completionTime": 56
+      }
+    },
+    {
+      "id": 174,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T12:38:24.296Z",
+      "properties": {
+        "sessionId": "sess_207",
+        "orderId": "ord_1537",
+        "totalAmount": 103,
+        "itemsCount": 1,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 89,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T12:39:12.050Z",
+      "properties": {
+        "sessionId": "sess_95",
+        "formType": "Sign Up Form",
+        "completionTime": 252
+      }
+    },
+    {
+      "id": 133,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Pricing Page",
+      "timestamp": "2026-03-23T12:41:31.523Z",
+      "properties": {
+        "sessionId": "sess_982",
+        "page": "/pricing_page",
+        "referrer": "google.com",
+        "device": "desktop",
+        "browser": "Chrome",
+        "os": "iOS"
+      }
+    },
+    {
+      "id": 92,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "View Cart",
+      "timestamp": "2026-03-23T12:44:04.963Z",
+      "properties": {
+        "sessionId": "sess_361",
+        "productId": "prod_273",
+        "productName": "Desk Lamp",
+        "price": 118
+      }
+    },
+    {
+      "id": 109,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T12:45:13.624Z",
+      "properties": {
+        "sessionId": "sess_369",
+        "fileName": "app_download.pdf",
+        "fileSize": 6
+      }
+    },
+    {
+      "id": 75,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T12:48:23.583Z",
+      "properties": {
+        "sessionId": "sess_867",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 6
+      }
+    },
+    {
+      "id": 58,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Product Details",
+      "timestamp": "2026-03-23T12:50:33.306Z",
+      "properties": {
+        "sessionId": "sess_26",
+        "page": "/product_details",
+        "referrer": "bing.com",
+        "device": "desktop",
+        "browser": "Chrome",
+        "os": "iOS"
+      }
+    },
+    {
+      "id": 114,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T13:02:01.563Z",
+      "properties": {
+        "sessionId": "sess_938",
+        "formType": "Contact Form",
+        "completionTime": 77
+      }
+    },
+    {
+      "id": 126,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T13:10:10.304Z",
+      "properties": {
+        "sessionId": "sess_985",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 2
+      }
+    },
+    {
+      "id": 198,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T13:11:10.844Z",
+      "properties": {
+        "sessionId": "sess_782",
+        "videoId": "vid_101",
+        "duration": 344,
+        "watched": 17
+      }
+    },
+    {
+      "id": 103,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T13:14:22.016Z",
+      "properties": {
+        "sessionId": "sess_76",
+        "fileName": "app_download.pdf",
+        "fileSize": 12
+      }
+    },
+    {
+      "id": 169,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T13:22:16.344Z",
+      "properties": {
+        "sessionId": "sess_64",
+        "formType": "Sign Up Form",
+        "completionTime": 259
+      }
+    },
+    {
+      "id": 162,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T13:28:47.371Z",
+      "properties": {
+        "sessionId": "sess_273",
+        "orderId": "ord_4600",
+        "totalAmount": 159,
+        "itemsCount": 1,
+        "paymentMethod": "credit_card"
+      }
+    },
+    {
+      "id": 34,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T13:50:28.176Z",
+      "properties": {
+        "sessionId": "sess_58",
+        "formType": "Contact Form",
+        "completionTime": 298
+      }
+    },
+    {
+      "id": 68,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "About Page",
+      "timestamp": "2026-03-23T13:52:08.631Z",
+      "properties": {
+        "sessionId": "sess_220",
+        "page": "/about_page",
+        "referrer": "twitter.com",
+        "device": "mobile",
+        "browser": "Edge",
+        "os": "Linux"
+      }
+    },
+    {
+      "id": 69,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T13:53:05.332Z",
+      "properties": {
+        "sessionId": "sess_363",
+        "formType": "Sign Up Form",
+        "completionTime": 51
+      }
+    },
+    {
+      "id": 101,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T14:11:43.111Z",
+      "properties": {
+        "sessionId": "sess_12",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 15
+      }
+    },
+    {
+      "id": 16,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T14:15:11.366Z",
+      "properties": {
+        "sessionId": "sess_172",
+        "fileName": "app_download.pdf",
+        "fileSize": 12
+      }
+    },
+    {
+      "id": 203,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T14:24:36.369Z",
+      "properties": {
+        "sessionId": "sess_694",
+        "orderId": "ord_3746",
+        "totalAmount": 482,
+        "itemsCount": 2,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 146,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Support Page",
+      "timestamp": "2026-03-23T14:25:47.195Z",
+      "properties": {
+        "sessionId": "sess_834",
+        "page": "/support_page",
+        "referrer": "twitter.com",
+        "device": "desktop",
+        "browser": "Opera",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 135,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T14:44:39.120Z",
+      "properties": {
+        "sessionId": "sess_803",
+        "fileName": "app_download.pdf",
+        "fileSize": 18
+      }
+    },
+    {
+      "id": 65,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T14:50:54.820Z",
+      "properties": {
+        "sessionId": "sess_158",
+        "formType": "Sign Up Form",
+        "completionTime": 225
+      }
+    },
+    {
+      "id": 173,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T14:55:43.666Z",
+      "properties": {
+        "sessionId": "sess_726",
+        "formType": "Sign Up Form",
+        "completionTime": 43
+      }
+    },
+    {
+      "id": 31,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T14:58:55.621Z",
+      "properties": {
+        "sessionId": "sess_491",
+        "videoId": "vid_27",
+        "duration": 326,
+        "watched": 72
+      }
+    },
+    {
+      "id": 52,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "click",
+      "eventName": "View Cart",
+      "timestamp": "2026-03-23T15:12:43.295Z",
+      "properties": {
+        "sessionId": "sess_642",
+        "productId": "prod_914",
+        "productName": "Wireless Headphones",
+        "price": 39
+      }
+    },
+    {
+      "id": 193,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T15:24:33.446Z",
+      "properties": {
+        "sessionId": "sess_227",
+        "orderId": "ord_4796",
+        "totalAmount": 426,
+        "itemsCount": 3,
+        "paymentMethod": "paypal"
+      }
+    },
+    {
+      "id": 191,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T15:25:04.353Z",
+      "properties": {
+        "sessionId": "sess_763",
+        "videoId": "vid_95",
+        "duration": 173,
+        "watched": 61
+      }
+    },
+    {
+      "id": 13,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T15:29:47.675Z",
+      "properties": {
+        "sessionId": "sess_286",
+        "orderId": "ord_810",
+        "totalAmount": 516,
+        "itemsCount": 1,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 119,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Newsletter Signup",
+      "timestamp": "2026-03-23T15:35:21.789Z",
+      "properties": {
+        "sessionId": "sess_634",
+        "productId": "prod_929"
+      }
+    },
+    {
+      "id": 27,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "click",
+      "eventName": "Newsletter Signup",
+      "timestamp": "2026-03-23T15:39:18.876Z",
+      "properties": {
+        "sessionId": "sess_19",
+        "productId": "prod_406"
+      }
+    },
+    {
+      "id": 206,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T15:42:46.619Z",
+      "properties": {
+        "sessionId": "sess_331",
+        "orderId": "ord_3735",
+        "totalAmount": 507,
+        "itemsCount": 5,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 156,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T15:48:05.455Z",
+      "properties": {
+        "sessionId": "sess_267",
+        "videoId": "vid_153",
+        "duration": 137,
+        "watched": 30
+      }
+    },
+    {
+      "id": 125,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T15:57:38.136Z",
+      "properties": {
+        "sessionId": "sess_994",
+        "formType": "Feedback Form",
+        "completionTime": 277
+      }
+    },
+    {
+      "id": 189,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T15:58:44.010Z",
+      "properties": {
+        "sessionId": "sess_647",
+        "formType": "Feedback Form",
+        "completionTime": 193
+      }
+    },
+    {
+      "id": 40,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Blog Page",
+      "timestamp": "2026-03-23T16:01:39.138Z",
+      "properties": {
+        "sessionId": "sess_598",
+        "page": "/blog_page",
+        "referrer": "twitter.com",
+        "device": "mobile",
+        "browser": "Firefox",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 15,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Blog Page",
+      "timestamp": "2026-03-23T16:02:38.587Z",
+      "properties": {
+        "sessionId": "sess_349",
+        "page": "/blog_page",
+        "referrer": "google.com",
+        "device": "desktop",
+        "browser": "Chrome",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 42,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T16:10:49.558Z",
+      "properties": {
+        "sessionId": "sess_610",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 5
+      }
+    },
+    {
+      "id": 175,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Apply Coupon",
+      "timestamp": "2026-03-23T16:19:26.197Z",
+      "properties": {
+        "sessionId": "sess_388",
+        "productId": "prod_848",
+        "productName": "Desk Lamp",
+        "price": 203
+      }
+    },
+    {
+      "id": 165,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T16:19:28.618Z",
+      "properties": {
+        "sessionId": "sess_776",
+        "formType": "Feedback Form",
+        "completionTime": 304
+      }
+    },
+    {
+      "id": 107,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T16:19:28.751Z",
+      "properties": {
+        "sessionId": "sess_934",
+        "fileName": "app_download.pdf",
+        "fileSize": 17
+      }
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T16:23:28.512Z",
+      "properties": {
+        "sessionId": "sess_808",
+        "videoId": "vid_260",
+        "duration": 276,
+        "watched": 29
+      }
+    },
+    {
+      "id": 67,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Apply Coupon",
+      "timestamp": "2026-03-23T16:26:12.206Z",
+      "properties": {
+        "sessionId": "sess_795",
+        "productId": "prod_884",
+        "productName": "Desk Lamp",
+        "price": 60
+      }
+    },
+    {
+      "id": 139,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T16:33:48.614Z",
+      "properties": {
+        "sessionId": "sess_853",
+        "videoId": "vid_70",
+        "duration": 109,
+        "watched": 77
+      }
+    },
+    {
+      "id": 170,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T16:36:00.824Z",
+      "properties": {
+        "sessionId": "sess_161",
+        "formType": "Sign Up Form",
+        "completionTime": 265
+      }
+    },
+    {
+      "id": 147,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T16:38:58.108Z",
+      "properties": {
+        "sessionId": "sess_712",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 17
+      }
+    },
+    {
+      "id": 85,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T16:41:25.882Z",
+      "properties": {
+        "sessionId": "sess_741",
+        "videoId": "vid_458",
+        "duration": 96,
+        "watched": 66
+      }
+    },
+    {
+      "id": 96,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Start Checkout",
+      "timestamp": "2026-03-23T16:46:10.091Z",
+      "properties": {
+        "sessionId": "sess_968",
+        "productId": "prod_729",
+        "productName": "Wireless Headphones",
+        "price": 109
+      }
+    },
+    {
+      "id": 179,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Apply Coupon",
+      "timestamp": "2026-03-23T16:52:12.705Z",
+      "properties": {
+        "sessionId": "sess_356",
+        "productId": "prod_345",
+        "productName": "Wireless Headphones",
+        "price": 188
+      }
+    },
+    {
+      "id": 12,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T17:02:05.265Z",
+      "properties": {
+        "sessionId": "sess_97",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 9
+      }
+    },
+    {
+      "id": 11,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T17:05:41.375Z",
+      "properties": {
+        "sessionId": "sess_49",
+        "formType": "Feedback Form",
+        "completionTime": 86
+      }
+    },
+    {
+      "id": 148,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T17:08:29.558Z",
+      "properties": {
+        "sessionId": "sess_664",
+        "videoId": "vid_493",
+        "duration": 243,
+        "watched": 27
+      }
+    },
+    {
+      "id": 182,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "App Download",
+      "timestamp": "2026-03-23T17:17:34.861Z",
+      "properties": {
+        "sessionId": "sess_246",
+        "fileName": "app_download.pdf",
+        "fileSize": 7
+      }
+    },
+    {
+      "id": 25,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T17:22:06.566Z",
+      "properties": {
+        "sessionId": "sess_282",
+        "formType": "Sign Up Form",
+        "completionTime": 139
+      }
+    },
+    {
+      "id": 180,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T17:34:08.303Z",
+      "properties": {
+        "sessionId": "sess_779",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 12
+      }
+    },
+    {
+      "id": 186,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "About Page",
+      "timestamp": "2026-03-23T17:40:54.781Z",
+      "properties": {
+        "sessionId": "sess_113",
+        "page": "/about_page",
+        "referrer": "bing.com",
+        "device": "tablet",
+        "browser": "Opera",
+        "os": "Linux"
+      }
+    },
+    {
+      "id": 33,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T17:41:01.948Z",
+      "properties": {
+        "sessionId": "sess_417",
+        "videoId": "vid_225",
+        "duration": 98,
+        "watched": 62
+      }
+    },
+    {
+      "id": 32,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T17:44:08.669Z",
+      "properties": {
+        "sessionId": "sess_756",
+        "orderId": "ord_4470",
+        "totalAmount": 348,
+        "itemsCount": 1,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 56,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Product Details",
+      "timestamp": "2026-03-23T18:00:19.697Z",
+      "properties": {
+        "sessionId": "sess_933",
+        "page": "/product_details",
+        "referrer": "facebook.com",
+        "device": "mobile",
+        "browser": "Firefox",
+        "os": "Android"
+      }
+    },
+    {
+      "id": 121,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "click",
+      "eventName": "Like Product",
+      "timestamp": "2026-03-23T18:21:23.300Z",
+      "properties": {
+        "sessionId": "sess_714",
+        "productId": "prod_727",
+        "productName": "Wireless Headphones",
+        "price": 70
+      }
+    },
+    {
+      "id": 129,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T18:25:50.038Z",
+      "properties": {
+        "sessionId": "sess_793",
+        "videoId": "vid_211",
+        "duration": 246,
+        "watched": 80
+      }
+    },
+    {
+      "id": 172,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "click",
+      "eventName": "Add to Wishlist",
+      "timestamp": "2026-03-23T18:39:58.387Z",
+      "properties": {
+        "sessionId": "sess_77",
+        "productId": "prod_148",
+        "productName": "Desk Lamp",
+        "price": 102
+      }
+    },
+    {
+      "id": 28,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T18:53:56.733Z",
+      "properties": {
+        "sessionId": "sess_572",
+        "videoId": "vid_486",
+        "duration": 72,
+        "watched": 51
+      }
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T18:55:20.418Z",
+      "properties": {
+        "sessionId": "sess_355",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 9
+      }
+    },
+    {
+      "id": 163,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T18:56:55.491Z",
+      "properties": {
+        "sessionId": "sess_770",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 13
+      }
+    },
+    {
+      "id": 158,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Pricing Page",
+      "timestamp": "2026-03-23T19:02:23.693Z",
+      "properties": {
+        "sessionId": "sess_720",
+        "page": "/pricing_page",
+        "referrer": "facebook.com",
+        "device": "mobile",
+        "browser": "Chrome",
+        "os": "Linux"
+      }
+    },
+    {
+      "id": 159,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "click",
+      "eventName": "View Cart",
+      "timestamp": "2026-03-23T19:08:08.311Z",
+      "properties": {
+        "sessionId": "sess_473",
+        "productId": "prod_147",
+        "productName": "Desk Lamp",
+        "price": 12
+      }
+    },
+    {
+      "id": 99,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Pricing Page",
+      "timestamp": "2026-03-23T19:13:02.046Z",
+      "properties": {
+        "sessionId": "sess_915",
+        "page": "/pricing_page",
+        "referrer": "direct",
+        "device": "tablet",
+        "browser": "Chrome",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 41,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T19:14:36.622Z",
+      "properties": {
+        "sessionId": "sess_884",
+        "formType": "Sign Up Form",
+        "completionTime": 90
+      }
+    },
+    {
+      "id": 168,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T19:14:39.149Z",
+      "properties": {
+        "sessionId": "sess_725",
+        "videoId": "vid_268",
+        "duration": 283,
+        "watched": 61
+      }
+    },
+    {
+      "id": 104,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T19:32:20.066Z",
+      "properties": {
+        "sessionId": "sess_373",
+        "videoId": "vid_238",
+        "duration": 211,
+        "watched": 52
+      }
+    },
+    {
+      "id": 160,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T19:33:02.140Z",
+      "properties": {
+        "sessionId": "sess_805",
+        "formType": "Sign Up Form",
+        "completionTime": 131
+      }
+    },
+    {
+      "id": 116,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Contact Page",
+      "timestamp": "2026-03-23T19:40:36.894Z",
+      "properties": {
+        "sessionId": "sess_601",
+        "page": "/contact_page",
+        "referrer": "facebook.com",
+        "device": "desktop",
+        "browser": "Edge",
+        "os": "iOS"
+      }
+    },
+    {
+      "id": 20,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T19:45:12.482Z",
+      "properties": {
+        "sessionId": "sess_910",
+        "orderId": "ord_858",
+        "totalAmount": 404,
+        "itemsCount": 4,
+        "paymentMethod": "paypal"
+      }
+    },
+    {
+      "id": 45,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T19:45:13.653Z",
+      "properties": {
+        "sessionId": "sess_726",
+        "orderId": "ord_559",
+        "totalAmount": 379,
+        "itemsCount": 1,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 141,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T19:55:18.433Z",
+      "properties": {
+        "sessionId": "sess_176",
+        "videoId": "vid_34",
+        "duration": 76,
+        "watched": 84
+      }
+    },
+    {
+      "id": 185,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "click",
+      "eventName": "View Cart",
+      "timestamp": "2026-03-23T20:04:25.608Z",
+      "properties": {
+        "sessionId": "sess_146",
+        "productId": "prod_287",
+        "productName": "Smart Watch",
+        "price": 81
+      }
+    },
+    {
+      "id": 55,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T20:07:49.311Z",
+      "properties": {
+        "sessionId": "sess_657",
+        "orderId": "ord_298",
+        "totalAmount": 410,
+        "itemsCount": 5,
+        "paymentMethod": "paypal"
+      }
+    },
+    {
+      "id": 113,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T20:08:17.246Z",
+      "properties": {
+        "sessionId": "sess_825",
+        "orderId": "ord_920",
+        "totalAmount": 179,
+        "itemsCount": 1,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 47,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T20:10:17.228Z",
+      "properties": {
+        "sessionId": "sess_237",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 19
+      }
+    },
+    {
+      "id": 97,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T20:11:37.853Z",
+      "properties": {
+        "sessionId": "sess_709",
+        "orderId": "ord_1596",
+        "totalAmount": 109,
+        "itemsCount": 5,
+        "paymentMethod": "apple_pay"
+      }
+    },
+    {
+      "id": 62,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T20:12:40.778Z",
+      "properties": {
+        "sessionId": "sess_618",
+        "formType": "Feedback Form",
+        "completionTime": 151
+      }
+    },
+    {
+      "id": 110,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T20:26:07.447Z",
+      "properties": {
+        "sessionId": "sess_501",
+        "orderId": "ord_1755",
+        "totalAmount": 481,
+        "itemsCount": 5,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 134,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Contact Page",
+      "timestamp": "2026-03-23T20:26:24.706Z",
+      "properties": {
+        "sessionId": "sess_475",
+        "page": "/contact_page",
+        "referrer": "google.com",
+        "device": "desktop",
+        "browser": "Safari",
+        "os": "iOS"
+      }
+    },
+    {
+      "id": 115,
+      "userId": 3,
+      "userName": "Mike Johnson",
+      "userEmail": "mike@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T20:34:49.380Z",
+      "properties": {
+        "sessionId": "sess_272",
+        "videoId": "vid_335",
+        "duration": 187,
+        "watched": 65
+      }
+    },
+    {
+      "id": 71,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "click",
+      "eventName": "Add to Cart",
+      "timestamp": "2026-03-23T20:35:00.375Z",
+      "properties": {
+        "sessionId": "sess_578",
+        "productId": "prod_876",
+        "productName": "Desk Lamp",
+        "price": 53
+      }
+    },
+    {
+      "id": 91,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Products Page",
+      "timestamp": "2026-03-23T20:37:10.243Z",
+      "properties": {
+        "sessionId": "sess_585",
+        "page": "/products_page",
+        "referrer": "linkedin.com",
+        "device": "desktop",
+        "browser": "Opera",
+        "os": "macOS"
+      }
+    },
+    {
+      "id": 155,
+      "userId": 8,
+      "userName": "Robert Taylor",
+      "userEmail": "robert@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Support Page",
+      "timestamp": "2026-03-23T20:42:07.361Z",
+      "properties": {
+        "sessionId": "sess_204",
+        "page": "/support_page",
+        "referrer": "facebook.com",
+        "device": "desktop",
+        "browser": "Chrome",
+        "os": "Android"
+      }
+    },
+    {
+      "id": 138,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T20:47:13.389Z",
+      "properties": {
+        "sessionId": "sess_441",
+        "formType": "Feedback Form",
+        "completionTime": 99
+      }
+    },
+    {
+      "id": 24,
+      "userId": 4,
+      "userName": "Sarah Wilson",
+      "userEmail": "sarah@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "Homepage View",
+      "timestamp": "2026-03-23T21:04:07.201Z",
+      "properties": {
+        "sessionId": "sess_985",
+        "page": "/homepage_view",
+        "referrer": "google.com",
+        "device": "tablet",
+        "browser": "Safari",
+        "os": "iOS"
+      }
+    },
+    {
+      "id": 1,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "About Page",
+      "timestamp": "2026-03-23T21:08:50.745Z",
+      "properties": {
+        "sessionId": "sess_550",
+        "page": "/about_page",
+        "referrer": "twitter.com",
+        "device": "tablet",
+        "browser": "Safari",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 51,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T21:10:07.601Z",
+      "properties": {
+        "sessionId": "sess_145",
+        "videoId": "vid_174",
+        "duration": 270,
+        "watched": 92
+      }
+    },
+    {
+      "id": 6,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T21:30:13.568Z",
+      "properties": {
+        "sessionId": "sess_697",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 19
+      }
+    },
+    {
+      "id": 79,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Subscription Purchased",
+      "timestamp": "2026-03-23T21:34:10.811Z",
+      "properties": {
+        "sessionId": "sess_486",
+        "orderId": "ord_1322",
+        "totalAmount": 237,
+        "itemsCount": 3,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 19,
+      "userId": 1,
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Promo Video",
+      "timestamp": "2026-03-23T21:46:38.132Z",
+      "properties": {
+        "sessionId": "sess_445",
+        "videoId": "vid_76",
+        "duration": 128,
+        "watched": 52
+      }
+    },
+    {
+      "id": 108,
+      "userId": 6,
+      "userName": "David Lee",
+      "userEmail": "david@example.com",
+      "userSegment": "Basic",
+      "eventType": "page_view",
+      "eventName": "About Page",
+      "timestamp": "2026-03-23T21:49:00.023Z",
+      "properties": {
+        "sessionId": "sess_13",
+        "page": "/about_page",
+        "referrer": "bing.com",
+        "device": "tablet",
+        "browser": "Firefox",
+        "os": "Windows"
+      }
+    },
+    {
+      "id": 84,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "download",
+      "eventName": "Whitepaper Download",
+      "timestamp": "2026-03-23T22:11:20.223Z",
+      "properties": {
+        "sessionId": "sess_722",
+        "fileName": "whitepaper_download.pdf",
+        "fileSize": 10
+      }
+    },
+    {
+      "id": 53,
+      "userId": 10,
+      "userName": "James Wilson",
+      "userEmail": "james@example.com",
+      "userSegment": "Basic",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T22:19:33.610Z",
+      "properties": {
+        "sessionId": "sess_326",
+        "orderId": "ord_4447",
+        "totalAmount": 297,
+        "itemsCount": 2,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 49,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "video_play",
+      "eventName": "Product Video",
+      "timestamp": "2026-03-23T22:40:12.031Z",
+      "properties": {
+        "sessionId": "sess_562",
+        "videoId": "vid_487",
+        "duration": 310,
+        "watched": 71
+      }
+    },
+    {
+      "id": 82,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "video_play",
+      "eventName": "Tutorial Video",
+      "timestamp": "2026-03-23T22:41:54.496Z",
+      "properties": {
+        "sessionId": "sess_958",
+        "videoId": "vid_425",
+        "duration": 139,
+        "watched": 67
+      }
+    },
+    {
+      "id": 90,
+      "userId": 5,
+      "userName": "Emily Brown",
+      "userEmail": "emily@example.com",
+      "userSegment": "Premium",
+      "eventType": "purchase",
+      "eventName": "Order Completed",
+      "timestamp": "2026-03-23T23:11:35.237Z",
+      "properties": {
+        "sessionId": "sess_720",
+        "orderId": "ord_4914",
+        "totalAmount": 64,
+        "itemsCount": 4,
+        "paymentMethod": "google_pay"
+      }
+    },
+    {
+      "id": 171,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Contact Form",
+      "timestamp": "2026-03-23T23:31:08.617Z",
+      "properties": {
+        "sessionId": "sess_929",
+        "formType": "Contact Form",
+        "completionTime": 219
+      }
+    },
+    {
+      "id": 124,
+      "userId": 7,
+      "userName": "Lisa Anderson",
+      "userEmail": "lisa@example.com",
+      "userSegment": "Premium",
+      "eventType": "page_view",
+      "eventName": "Contact Page",
+      "timestamp": "2026-03-23T23:32:04.130Z",
+      "properties": {
+        "sessionId": "sess_541",
+        "page": "/contact_page",
+        "referrer": "facebook.com",
+        "device": "tablet",
+        "browser": "Opera",
+        "os": "iOS"
+      }
+    },
+    {
+      "id": 132,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "download",
+      "eventName": "Brochure Download",
+      "timestamp": "2026-03-23T23:47:50.155Z",
+      "properties": {
+        "sessionId": "sess_309",
+        "fileName": "brochure_download.pdf",
+        "fileSize": 2
+      }
+    },
+    {
+      "id": 195,
+      "userId": 2,
+      "userName": "Jane Smith",
+      "userEmail": "jane@example.com",
+      "userSegment": "Basic",
+      "eventType": "form_submit",
+      "eventName": "Feedback Form",
+      "timestamp": "2026-03-23T23:52:59.452Z",
+      "properties": {
+        "sessionId": "sess_564",
+        "formType": "Feedback Form",
+        "completionTime": 154
+      }
+    },
+    {
+      "id": 94,
+      "userId": 9,
+      "userName": "Maria Garcia",
+      "userEmail": "maria@example.com",
+      "userSegment": "Premium",
+      "eventType": "form_submit",
+      "eventName": "Sign Up Form",
+      "timestamp": "2026-03-23T23:54:07.757Z",
+      "properties": {
+        "sessionId": "sess_390",
+        "formType": "Sign Up Form",
+        "completionTime": 244
+      }
+    }
+  ]
+}

@@ -63,7 +63,7 @@
               "payment": {
                 "method": "Cash on Delivery",
                 "status": "pending",
-                "timestamps": { "placed": "2024-03-05T18:20:00", "confirmed": null, "delivered": null }
+        "timestamps": { "placed": "2024-03-01T10:30:00", "confirmed": "2024-03-01T10:31:00", "delivered": "2024-03-04T14:20:00" }
               },
               "address": { "city": "Ahmedabad", "state": "Gujarat", "pin": "380001" }
             },
