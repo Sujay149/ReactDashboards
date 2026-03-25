@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import {
   Area,
   AreaChart,
@@ -9,18 +10,25 @@ import {
 } from "recharts";
 
 function FeelsLikeAreaChart({ data, loading, hasData }) {
+  const [isLayoutReady, setIsLayoutReady] = useState(false);
+
+  useEffect(() => {
+    const frameId = requestAnimationFrame(() => setIsLayoutReady(true));
+    return () => cancelAnimationFrame(frameId);
+  }, []);
+
   return (
-    <div className="rounded-xl border bg-white p-4 shadow-sm">
+    <div className="min-w-0 rounded-xl border bg-white p-4 shadow-sm">
       <h2 className="mb-3 text-sm font-semibold text-gray-700">
         Feels Like vs Actual (Area)
       </h2>
-      <div className="h-64">
-        {loading || !hasData ? (
+      <div className="h-64 min-w-0">
+        {loading || !hasData || !isLayoutReady ? (
           <div className="flex h-full items-center justify-center text-gray-400">
             Loading chart...
           </div>
         ) : (
-          <ResponsiveContainer width="100%" height="100%">
+          <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={200}>
             <AreaChart data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="city" />

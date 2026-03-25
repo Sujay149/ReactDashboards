@@ -13,7 +13,7 @@
       },
       "address": { "city": "Hyderabad", "state": "Telangana", "pin": "500034" }
     },
-            {
+       {
               "id": 2,
               "customer": { "name": "Priya Verma", "city": "Delhi", "tier": "regular" },
               "items": [

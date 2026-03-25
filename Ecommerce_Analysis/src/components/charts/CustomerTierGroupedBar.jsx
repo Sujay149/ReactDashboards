@@ -4,7 +4,7 @@ import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend, Cart
 function CustomerTierGroupedBar({ orders = [] }) {
   const norm = (t) => (t === 'premium' ? 'Gold' : t === 'regular' ? 'Silver' : 'Bronze')
 
-  // Compare both order count and revenue for each tier.
+  // Compare both order countx and revenue for each tier.
   const data = useMemo(() => {
     const tiers = { Gold: { revenue: 0, orders: 0 }, Silver: { revenue: 0, orders: 0 }, Bronze: { revenue: 0, orders: 0 } }
     orders.forEach(o => {

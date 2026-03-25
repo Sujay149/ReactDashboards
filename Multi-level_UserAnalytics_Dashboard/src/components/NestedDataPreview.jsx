@@ -4,8 +4,6 @@ import PieChart from './PieChart'
 
 function NestedDataPreview() {
   const [users, setUsers] = useState([])
-  const [posts, setPosts] = useState([])
-  const [comments, setComments] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
 
@@ -17,26 +15,16 @@ function NestedDataPreview() {
       setError('')
 
       try {
-        const [usersRes, postsRes, commentsRes] = await Promise.all([
-          fetch('http://localhost:3001/users'),
-          fetch('http://localhost:3001/posts'),
-          fetch('http://localhost:3001/comments'),
-        ])
+        const usersRes = await fetch('http://localhost:3001/users')
 
-        if (!usersRes.ok || !postsRes.ok || !commentsRes.ok) {
-          throw new Error('Failed to fetch one or more resources from json-server.')
+        if (!usersRes.ok) {
+          throw new Error('Failed to fetch users from json-server.')
         }
 
-        const [usersData, postsData, commentsData] = await Promise.all([
-          usersRes.json(),
-          postsRes.json(),
-          commentsRes.json(),
-        ])
+        const usersData = await usersRes.json()
 
         if (!ignore) {
-          setUsers(usersData)
-          setPosts(postsData)
-          setComments(commentsData)
+          setUsers(Array.isArray(usersData) ? usersData : [])
         }
       } catch (fetchError) {
         if (!ignore) {
@@ -57,26 +45,8 @@ function NestedDataPreview() {
   }, [])
 
   const nestedData = useMemo(() => {
-    return users.map((user) => {
-      const userPosts = posts
-        .filter((post) => String(post.userId) === String(user.id))
-        .map((post) => {
-          const postComments = comments.filter(
-            (comment) => String(comment.postId) === String(post.id),
-          )
-
-          return {
-            ...post,
-            comments: postComments,
-          }
-        })
-
-      return {
-        ...user,
-        posts: userPosts,
-      }
-    })
-  }, [users, posts, comments])
+    return users
+  }, [users])
 
   useEffect(() => {
     console.log(nestedData)
