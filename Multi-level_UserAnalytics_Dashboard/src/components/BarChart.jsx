@@ -25,7 +25,7 @@ function BarChart({ nestedData }) {
                         data={chartData}
                         margin={{ top: 8, right: 8, left: 0, bottom: 8 }}
                     >
-                        <CartesianGrid strokeDasharray="3 3" stroke="#d4d4d8" />
+                        <CartesianGrid/>
                         <XAxis
                             dataKey="name"
                             tick={{ fill: '#52525b', fontSize: 12 }}

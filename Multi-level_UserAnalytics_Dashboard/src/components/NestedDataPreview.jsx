@@ -84,7 +84,7 @@ function NestedDataPreview() {
 
   return (
     <section className="min-h-screen bg-[#102536] px-6 py-8">
-<h2 className="mb-6 text-2xl font-bold text-red-500 dark:text-[#8fb2cf]">        Multi-level User Analytics
+<h2 className="mb-6 text-2xl font-bold text-red-500 dark:text-[#8fb2cf]">Multi-level User Analytics
       </h2>
 
       {loading && <p>Loading...</p>}

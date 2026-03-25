@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import FeelsLikeAreaChart from "./charts/FeelsLikeAreaChart";
 import HumidityBarChart from "./charts/HumidityBarChart";
 import TemperatureLineChart from "./charts/TemperatureLineChart";
+import WeatherCard from "./WeatherCard";
 
 const CITIES = [
   { name: "Hyderabad" },
@@ -12,7 +13,7 @@ const CITIES = [
 ];
 
 function Weather() {
-  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY; // hopefully activated by now
+  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY; 
 
   const [weatherData, setWeatherData] = useState({});
   const [error, setError] = useState(null);
@@ -113,108 +114,14 @@ function Weather() {
       <div className="p-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {CITIES.map((city) => {
-            const w = weatherData[city.name]; 
+            const w = weatherData[city.name];
             return (
-              <div
+              <WeatherCard
                 key={city.name}
-                className="border rounded-xl bg-white shadow-sm hover:shadow-lg transition-shadow min-h-[260px] flex flex-col overflow-hidden"
-              >
-                {/* Header with city + icon */}
-                <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 text-center border-b">
-                  <h3 className="text-lg font-semibold text-gray-800">
-                    {city.name}
-                  </h3>
-                </div>
-
-                {loading ? (
-                  <div className="flex-1 flex items-center justify-center text-gray-400">
-                    Loading...
-                  </div>
-                ) : w && w.cod === 200 ? (
-                  <div className="p-5 flex-1 flex flex-col gap-3 text-sm">
-                    {/* Main temperature block */}
-                    <div className="text-center mb-2">
-                      <p className="text-3xl font-bold text-gray-800">
-                        {typeof w?.main?.temp === "number"
-                          ? `${Math.round(w.main.temp)}°C`
-                          : "—"}
-                      </p>
-                      <p className="text-gray-600 capitalize">
-                        {w?.weather?.[0]?.description || "—"}
-                      </p>
-                    </div>
-
-                    {/* Feels like + min/max */}
-                    <div className="grid grid-cols-3 gap-2 text-center border-b pb-3">
-                      <div>
-                        <p className="text-gray-500 text-xs">Feels like</p>
-                        <p className="font-medium">
-                          {typeof w?.main?.feels_like === "number"
-                            ? `${Math.round(w.main.feels_like)}°C`
-                            : "—"}
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-gray-500 text-xs">Min</p>
-                        <p className="font-medium">
-                          {typeof w?.main?.temp_min === "number"
-                            ? `${Math.round(w.main.temp_min)}°C`
-                            : "—"}
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-gray-500 text-xs">Max</p>
-                        <p className="font-medium">
-                          {typeof w?.main?.temp_max === "number"
-                            ? `${Math.round(w.main.temp_max)}°C`
-                            : "—"}
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Humidity & Pressure */}
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-600">Humidity</span>
-                      <span className="font-medium">{w?.main?.humidity ?? "—"}%</span>
-                    </div>
-
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-600">Pressure</span>
-                      <span className="font-medium">{w?.main?.pressure ?? "—"} hPa</span>
-                    </div>
-
-                    {/* Wind */}
-                    <div className="flex justify-between items-center border-t pt-3">
-                      <span className="text-gray-600">Wind</span>
-                      <span className="font-medium">
-                        {typeof w?.wind?.speed === "number"
-                          ? `${Math.round(w.wind.speed * 3.6)} km/h`
-                          : "—"}
-                        {typeof w?.wind?.deg === "number" ? ` (${w.wind.deg}°)` : ""}
-                      </span>
-                    </div>
-
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-600">Sunrise</span>
-                      <span className="font-medium">
-                        {w?.sys?.sunrise
-                          ? new Date(w.sys.sunrise * 1000).toLocaleTimeString([], {
-                              hour: "2-digit",
-                              minute: "2-digit",
-                            })
-                          : "—"}
-                      </span>
-                      
-                    </div>
-                  </div>
-                ) : (
-                  <div className="flex-1 flex items-center justify-center text-gray-500 text-sm p-4 text-center">
-                    {w?.message || "No data available"}
-                    {w?.cod && ` (Error ${w.cod})`}
-                  </div>
-                  
-                )}
-              </div>
+                cityName={city.name}
+                weather={w}
+                loading={loading}
+              />
             );
           })}
         </div>

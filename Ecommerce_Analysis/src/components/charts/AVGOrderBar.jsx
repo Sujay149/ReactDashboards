@@ -17,7 +17,7 @@ function AVGOrderBar({ orders = [] }) {
   useEffect(() => {
     if (orders.length > 0) return;
 
-    fetch('http://localhost:3001/orders')
+    fetch('http://localhost:3002/orders')
       .then(res => res.json())
       .then(data => setFetchedOrders(Array.isArray(data) ? data : []))
       .catch(() => setFetchedOrders([]));
